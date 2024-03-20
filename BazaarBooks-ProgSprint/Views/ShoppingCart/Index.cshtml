@@ -1,0 +1,147 @@
+﻿@model IEnumerable<BazaarBooks_ProgSprint.Models.ShoppingCart>
+@using BazaarBooks_ProgSprint.Controllers
+@inject BazaarBooksDbContext _context
+
+@{
+    ViewData["Title"] = "Shopping Cart";
+}
+
+<h1>Your Cart</h1>
+<h5 style="color:red;">@TempData["TotalPayment"]</h5>
+
+@{
+    var user = Context.Session.GetString("currentUser");
+    int level = _context.Users.Where(u => u.Uuid.Equals(user)).Select(u => u.Level).FirstOrDefault();
+    if (user != null)
+    {
+        if (level == 0)
+        {
+            <p>
+                @using (Html.BeginForm("Index", "ShoppingCart", FormMethod.Get))
+                {
+                    <b> Search By: </b>
+                    @Html.RadioButton("SearchBy", "Email", true) <text>Email </text>
+                    @Html.RadioButton("SearchBy", "Name", true) <text>Name </text>
+                    @Html.RadioButton("SearchBy", "Surname", true) <text>Surname </text>
+
+                    @Html.TextBox("search", "", htmlAttributes: new { @class = " w-50 form-control" })
+                    <input type="submit" value="Search" class="btn btn-success"></input>
+                }
+            </p>
+        }
+    }
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.IsbnNavigation.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsbnNavigation.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsbnNavigation.Isbn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quantity)
+            </th>
+            @{
+                if (user != null)
+                {
+                    if (level == 0)
+                    {
+                        <th>
+                            @Html.DisplayNameFor(model => model.Uuid)
+                        </th>
+                        // <th>
+                        //     Email
+                        // </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.IsPurchased)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Order)
+                        </th>
+                    }
+                }
+
+            }
+            
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Count() == 0)
+        {
+            <tr>
+                <td colspan="5">Nothing available currently</td>
+            </tr>
+        }
+        
+        else {
+            foreach (var item in Model) {
+        <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IsbnNavigation.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IsbnNavigation.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IsbnNavigation.Isbn)
+                </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quantity)
+            </td>
+                @{
+                    if (user != null)
+                    {
+                        if (level == 0)
+                        {
+
+                            // string email = _context.Users.Where(u => u.Uuid.Equals(user)).Select(u => u.Email).FirstOrDefault();
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Uuid)
+                            </td>
+                            // <td>
+                            //     @Html.DisplayFor(modelItem => email)
+                            // </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.IsPurchased)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Order.OrderId)
+                            </td>
+
+                        }
+                    }
+                }
+
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.CartItemId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.CartItemId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.CartItemId">Delete</a>
+            </td>
+        </tr>
+}
+}
+
+        @{
+            if (user != null)
+            {
+                if (level != 0)
+                {
+                    <form asp-action="Payment" asp-controller="Payment" method="get">
+                        @*  <input type="hidden" name="id" value="@item.Isbn" /> *@
+                        <button type="submit" class="btn btn-primary">Pay</button>
+                    </form>
+                }
+         
+            }
+            }
+            
+
+    </tbody>
+</table>

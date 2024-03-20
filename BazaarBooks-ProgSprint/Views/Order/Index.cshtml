@@ -1,0 +1,121 @@
+﻿@model IEnumerable<BazaarBooks_ProgSprint.Models.Order>
+@using BazaarBooks_ProgSprint.Controllers
+@inject BazaarBooksDbContext _context
+
+@{
+    ViewData["Title"] = "Orders";
+}
+
+<h1>Orders</h1>
+
+@{
+    var user = Context.Session.GetString("currentUser");
+    int level = _context.Users.Where(u => u.Uuid.Equals(user)).Select(u => u.Level).FirstOrDefault();
+    if (user != null)
+    {
+        if (level == 0)
+        {
+            <p>
+                @using (Html.BeginForm("Index", "Order", FormMethod.Get))
+                {
+                    <b> Search By: </b>
+                    @Html.RadioButton("SearchBy", "Email", true) <text>Email </text>
+                    @Html.RadioButton("SearchBy", "Name", true) <text>Name </text>
+                    @Html.RadioButton("SearchBy", "Surname", true) <text>Surname </text>
+
+                    @Html.TextBox("search", "", htmlAttributes: new { @class = " w-50 form-control" })
+                    <input type="submit" value="Search" class="btn btn-success"></input>
+                }
+            </p>
+        }
+    }
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            @{
+                if (user != null)
+                {
+                    if (level == 0)
+                    {
+                        <th>
+                            @Html.DisplayNameFor(model => model.Uuid)
+                        </th>
+                    }
+                }
+             }
+
+            <th>
+                @Html.DisplayNameFor(model => model.OrderId)
+            </th>
+                <th>
+                @Html.DisplayNameFor(model => model.PurchaseDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Total)
+            </th>
+            
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Count() == 0)
+        {
+            <tr>
+                <td colspan="5">Nothing available currently</td>
+            </tr>
+        }
+        else {
+foreach (var item in Model) {
+        <tr>
+                    @{
+                        if (user != null)
+                        {
+                            if (level == 0)
+                            {
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Uuid)
+                                </td>
+                            }
+                        }
+                        }
+                            <td>
+                        @Html.DisplayFor(modelItem => item.OrderId)
+                    </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PurchaseDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Total)
+            </td>
+                    @{
+                        if (user != null)
+                        {
+                            if (level == 0)
+                            {
+                                <td>
+                                    <a asp-action="Edit" asp-route-id="@item.OrderId">Edit</a> |
+                                    <a asp-action="Details" asp-route-id="@item.OrderId">Details</a> |
+                                   
+                                </td>
+                            }
+                            else
+                            {
+                                <td>
+                                  
+                                    <a asp-action="Details" asp-route-id="@item.OrderId">Details</a> 
+                                   
+                                </td>
+                            }
+                        }
+                        }
+           @*  <td>
+                <a asp-action="Edit" asp-route-id="@item.OrderId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.OrderId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.OrderId">Delete</a>
+            </td> *@
+        </tr>
+}}
+    </tbody>
+</table>

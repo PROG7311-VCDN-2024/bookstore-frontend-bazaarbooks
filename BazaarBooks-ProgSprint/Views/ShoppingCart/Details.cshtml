@@ -1,0 +1,68 @@
+﻿@model BazaarBooks_ProgSprint.Models.ShoppingCart
+@using BazaarBooks_ProgSprint.Controllers
+@inject BazaarBooksDbContext _context
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>ShoppingCart</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Quantity)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Quantity)
+        </dd>
+
+        @{
+            var user = Context.Session.GetString("currentUser");
+            int level = _context.Users.Where(u => u.Uuid.Equals(user)).Select(u => u.Level).FirstOrDefault();
+            if (user != null)
+            {
+                if (level == 0)
+                {
+                    <dt class="col-sm-2">
+                        @Html.DisplayNameFor(model => model.IsPurchased)
+                    </dt>
+                    <dd class="col-sm-10">
+                        @Html.DisplayFor(model => model.IsPurchased)
+                    </dd>
+                    <dt class="col-sm-2">
+                        @Html.DisplayNameFor(model => model.Order)
+                    </dt>
+                    <dd class="col-sm-10">
+                        @Html.DisplayFor(model => model.Order.OrderId)
+                    </dd>
+                    <dt class="col-sm-2">
+                        @Html.DisplayNameFor(model => model.Uu)
+                    </dt>
+                    <dd class="col-sm-10">
+                        @Html.DisplayFor(model => model.Uu.Uuid)
+                    </dd>
+                }
+            }
+            }   
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.IsbnNavigation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IsbnNavigation.Isbn)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.IsbnNavigation.Title)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.IsbnNavigation.Title)
+        </dd>
+        
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.CartItemId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

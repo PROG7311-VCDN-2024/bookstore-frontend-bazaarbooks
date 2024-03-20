@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Thank You";
+}
+
+<h1>Logout</h1>
+<h5>Thank You @TempData["usernameAsTempData"] for your purchase:)</h5>
+
+<form asp-action="Books" asp-controller="Payment" method="get">
+    @*  <input type="hidden" name="id" value="@item.Isbn" /> *@
+    <button type="submit" class="btn btn-primary">Books</button>
+</form>
+
+<form asp-action="Logout" asp-controller="Payment" method="get">
+    @*  <input type="hidden" name="id" value="@item.Isbn" /> *@
+    <button type="submit" class="btn btn-primary">Logout</button>
+</form>
+

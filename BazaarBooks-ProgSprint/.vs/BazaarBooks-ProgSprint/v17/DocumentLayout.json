@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Vikhayle\\Downloads\\bookstore-frontend-bazaarbooks-main\\bookstore-frontend-bazaarbooks-main\\BazaarBooks-ProgSprint\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9AEE6B34-67BF-4364-BB69-B7E1F61FE4C5}|BazaarBooks-ProgSprint.csproj|c:\\users\\vikhayle\\downloads\\bookstore-frontend-bazaarbooks-main\\bookstore-frontend-bazaarbooks-main\\bazaarbooks-progsprint\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AEE6B34-67BF-4364-BB69-B7E1F61FE4C5}|BazaarBooks-ProgSprint.csproj|solutionrelative:views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AEE6B34-67BF-4364-BB69-B7E1F61FE4C5}|BazaarBooks-ProgSprint.csproj|c:\\users\\vikhayle\\downloads\\bookstore-frontend-bazaarbooks-main\\bookstore-frontend-bazaarbooks-main\\bazaarbooks-progsprint\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AEE6B34-67BF-4364-BB69-B7E1F61FE4C5}|BazaarBooks-ProgSprint.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vikhayle\\Downloads\\bookstore-frontend-bazaarbooks-main\\bookstore-frontend-bazaarbooks-main\\BazaarBooks-ProgSprint\\Views\\Book\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Book\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Vikhayle\\Downloads\\bookstore-frontend-bazaarbooks-main\\bookstore-frontend-bazaarbooks-main\\BazaarBooks-ProgSprint\\Views\\Book\\Index.cshtml",
+              "RelativeToolTip": "Views\\Book\\Index.cshtml",
+              "ViewState": "AQIAAFkAAAAAlpmZmZkuwIEAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T07:17:41.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vikhayle\\Downloads\\bookstore-frontend-bazaarbooks-main\\bookstore-frontend-bazaarbooks-main\\BazaarBooks-ProgSprint\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Vikhayle\\Downloads\\bookstore-frontend-bazaarbooks-main\\bookstore-frontend-bazaarbooks-main\\BazaarBooks-ProgSprint\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T07:17:42.137Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
