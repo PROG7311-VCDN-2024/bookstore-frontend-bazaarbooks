@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BazaarBooks-ProgSprint")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bb570fa5df8fb0831165a8703292c4320f2cd1c")]
 [assembly: System.Reflection.AssemblyProductAttribute("BazaarBooks-ProgSprint")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BazaarBooks-ProgSprint")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

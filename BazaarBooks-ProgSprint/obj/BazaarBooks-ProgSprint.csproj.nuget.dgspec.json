@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vikhayle\\Downloads\\bookstore-frontend-bazaarbooks-main\\bookstore-frontend-bazaarbooks-main\\BazaarBooks-ProgSprint\\BazaarBooks-ProgSprint.csproj": {}
+    "C:\\Users\\Vikhayle\\OneDrive\\bookstore-frontend-bazaarbooks\\BazaarBooks-ProgSprint\\BazaarBooks-ProgSprint.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vikhayle\\Downloads\\bookstore-frontend-bazaarbooks-main\\bookstore-frontend-bazaarbooks-main\\BazaarBooks-ProgSprint\\BazaarBooks-ProgSprint.csproj": {
+    "C:\\Users\\Vikhayle\\OneDrive\\bookstore-frontend-bazaarbooks\\BazaarBooks-ProgSprint\\BazaarBooks-ProgSprint.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vikhayle\\Downloads\\bookstore-frontend-bazaarbooks-main\\bookstore-frontend-bazaarbooks-main\\BazaarBooks-ProgSprint\\BazaarBooks-ProgSprint.csproj",
+        "projectUniqueName": "C:\\Users\\Vikhayle\\OneDrive\\bookstore-frontend-bazaarbooks\\BazaarBooks-ProgSprint\\BazaarBooks-ProgSprint.csproj",
         "projectName": "BazaarBooks-ProgSprint",
-        "projectPath": "C:\\Users\\Vikhayle\\Downloads\\bookstore-frontend-bazaarbooks-main\\bookstore-frontend-bazaarbooks-main\\BazaarBooks-ProgSprint\\BazaarBooks-ProgSprint.csproj",
+        "projectPath": "C:\\Users\\Vikhayle\\OneDrive\\bookstore-frontend-bazaarbooks\\BazaarBooks-ProgSprint\\BazaarBooks-ProgSprint.csproj",
         "packagesPath": "C:\\Users\\Vikhayle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vikhayle\\Downloads\\bookstore-frontend-bazaarbooks-main\\bookstore-frontend-bazaarbooks-main\\BazaarBooks-ProgSprint\\obj\\",
+        "outputPath": "C:\\Users\\Vikhayle\\OneDrive\\bookstore-frontend-bazaarbooks\\BazaarBooks-ProgSprint\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

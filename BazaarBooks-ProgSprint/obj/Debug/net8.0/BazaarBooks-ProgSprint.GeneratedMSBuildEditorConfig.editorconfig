@@ -17,139 +17,139 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BazaarBooks_ProgSprint
 build_property.RootNamespace = BazaarBooks_ProgSprint
-build_property.ProjectDir = C:\Users\Vikhayle\Downloads\bookstore-frontend-bazaarbooks-main\bookstore-frontend-bazaarbooks-main\BazaarBooks-ProgSprint\
+build_property.ProjectDir = C:\Users\Vikhayle\OneDrive\bookstore-frontend-bazaarbooks\BazaarBooks-ProgSprint\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Vikhayle\Downloads\bookstore-frontend-bazaarbooks-main\bookstore-frontend-bazaarbooks-main\BazaarBooks-ProgSprint
+build_property.MSBuildProjectDirectory = C:\Users\Vikhayle\OneDrive\bookstore-frontend-bazaarbooks\BazaarBooks-ProgSprint
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Vikhayle/Downloads/bookstore-frontend-bazaarbooks-main/bookstore-frontend-bazaarbooks-main/BazaarBooks-ProgSprint/Views/Auth/Login.cshtml]
+[C:/Users/Vikhayle/OneDrive/bookstore-frontend-bazaarbooks/BazaarBooks-ProgSprint/Views/Auth/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vikhayle/Downloads/bookstore-frontend-bazaarbooks-main/bookstore-frontend-bazaarbooks-main/BazaarBooks-ProgSprint/Views/Auth/LogOut.cshtml]
+[C:/Users/Vikhayle/OneDrive/bookstore-frontend-bazaarbooks/BazaarBooks-ProgSprint/Views/Auth/LogOut.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dPdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vikhayle/Downloads/bookstore-frontend-bazaarbooks-main/bookstore-frontend-bazaarbooks-main/BazaarBooks-ProgSprint/Views/Auth/Register.cshtml]
+[C:/Users/Vikhayle/OneDrive/bookstore-frontend-bazaarbooks/BazaarBooks-ProgSprint/Views/Auth/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vikhayle/Downloads/bookstore-frontend-bazaarbooks-main/bookstore-frontend-bazaarbooks-main/BazaarBooks-ProgSprint/Views/Book/Create.cshtml]
+[C:/Users/Vikhayle/OneDrive/bookstore-frontend-bazaarbooks/BazaarBooks-ProgSprint/Views/Book/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vikhayle/Downloads/bookstore-frontend-bazaarbooks-main/bookstore-frontend-bazaarbooks-main/BazaarBooks-ProgSprint/Views/Book/Delete.cshtml]
+[C:/Users/Vikhayle/OneDrive/bookstore-frontend-bazaarbooks/BazaarBooks-ProgSprint/Views/Book/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vikhayle/Downloads/bookstore-frontend-bazaarbooks-main/bookstore-frontend-bazaarbooks-main/BazaarBooks-ProgSprint/Views/Book/Details.cshtml]
+[C:/Users/Vikhayle/OneDrive/bookstore-frontend-bazaarbooks/BazaarBooks-ProgSprint/Views/Book/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vikhayle/Downloads/bookstore-frontend-bazaarbooks-main/bookstore-frontend-bazaarbooks-main/BazaarBooks-ProgSprint/Views/Book/Edit.cshtml]
+[C:/Users/Vikhayle/OneDrive/bookstore-frontend-bazaarbooks/BazaarBooks-ProgSprint/Views/Book/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vikhayle/Downloads/bookstore-frontend-bazaarbooks-main/bookstore-frontend-bazaarbooks-main/BazaarBooks-ProgSprint/Views/Book/Index.cshtml]
+[C:/Users/Vikhayle/OneDrive/bookstore-frontend-bazaarbooks/BazaarBooks-ProgSprint/Views/Book/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vikhayle/Downloads/bookstore-frontend-bazaarbooks-main/bookstore-frontend-bazaarbooks-main/BazaarBooks-ProgSprint/Views/Home/Index.cshtml]
+[C:/Users/Vikhayle/OneDrive/bookstore-frontend-bazaarbooks/BazaarBooks-ProgSprint/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vikhayle/Downloads/bookstore-frontend-bazaarbooks-main/bookstore-frontend-bazaarbooks-main/BazaarBooks-ProgSprint/Views/Home/Privacy.cshtml]
+[C:/Users/Vikhayle/OneDrive/bookstore-frontend-bazaarbooks/BazaarBooks-ProgSprint/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vikhayle/Downloads/bookstore-frontend-bazaarbooks-main/bookstore-frontend-bazaarbooks-main/BazaarBooks-ProgSprint/Views/Order/Create.cshtml]
+[C:/Users/Vikhayle/OneDrive/bookstore-frontend-bazaarbooks/BazaarBooks-ProgSprint/Views/Order/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vikhayle/Downloads/bookstore-frontend-bazaarbooks-main/bookstore-frontend-bazaarbooks-main/BazaarBooks-ProgSprint/Views/Order/Delete.cshtml]
+[C:/Users/Vikhayle/OneDrive/bookstore-frontend-bazaarbooks/BazaarBooks-ProgSprint/Views/Order/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vikhayle/Downloads/bookstore-frontend-bazaarbooks-main/bookstore-frontend-bazaarbooks-main/BazaarBooks-ProgSprint/Views/Order/Details.cshtml]
+[C:/Users/Vikhayle/OneDrive/bookstore-frontend-bazaarbooks/BazaarBooks-ProgSprint/Views/Order/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vikhayle/Downloads/bookstore-frontend-bazaarbooks-main/bookstore-frontend-bazaarbooks-main/BazaarBooks-ProgSprint/Views/Order/Edit.cshtml]
+[C:/Users/Vikhayle/OneDrive/bookstore-frontend-bazaarbooks/BazaarBooks-ProgSprint/Views/Order/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vikhayle/Downloads/bookstore-frontend-bazaarbooks-main/bookstore-frontend-bazaarbooks-main/BazaarBooks-ProgSprint/Views/Order/Index.cshtml]
+[C:/Users/Vikhayle/OneDrive/bookstore-frontend-bazaarbooks/BazaarBooks-ProgSprint/Views/Order/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vikhayle/Downloads/bookstore-frontend-bazaarbooks-main/bookstore-frontend-bazaarbooks-main/BazaarBooks-ProgSprint/Views/Payment/Payment.cshtml]
+[C:/Users/Vikhayle/OneDrive/bookstore-frontend-bazaarbooks/BazaarBooks-ProgSprint/Views/Payment/Payment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxQYXltZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vikhayle/Downloads/bookstore-frontend-bazaarbooks-main/bookstore-frontend-bazaarbooks-main/BazaarBooks-ProgSprint/Views/Payment/ThankYou.cshtml]
+[C:/Users/Vikhayle/OneDrive/bookstore-frontend-bazaarbooks/BazaarBooks-ProgSprint/Views/Payment/ThankYou.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxUaGFua1lvdS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vikhayle/Downloads/bookstore-frontend-bazaarbooks-main/bookstore-frontend-bazaarbooks-main/BazaarBooks-ProgSprint/Views/Shared/Error.cshtml]
+[C:/Users/Vikhayle/OneDrive/bookstore-frontend-bazaarbooks/BazaarBooks-ProgSprint/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vikhayle/Downloads/bookstore-frontend-bazaarbooks-main/bookstore-frontend-bazaarbooks-main/BazaarBooks-ProgSprint/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Vikhayle/OneDrive/bookstore-frontend-bazaarbooks/BazaarBooks-ProgSprint/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vikhayle/Downloads/bookstore-frontend-bazaarbooks-main/bookstore-frontend-bazaarbooks-main/BazaarBooks-ProgSprint/Views/ShoppingCart/Create.cshtml]
+[C:/Users/Vikhayle/OneDrive/bookstore-frontend-bazaarbooks/BazaarBooks-ProgSprint/Views/ShoppingCart/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vikhayle/Downloads/bookstore-frontend-bazaarbooks-main/bookstore-frontend-bazaarbooks-main/BazaarBooks-ProgSprint/Views/ShoppingCart/Delete.cshtml]
+[C:/Users/Vikhayle/OneDrive/bookstore-frontend-bazaarbooks/BazaarBooks-ProgSprint/Views/ShoppingCart/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vikhayle/Downloads/bookstore-frontend-bazaarbooks-main/bookstore-frontend-bazaarbooks-main/BazaarBooks-ProgSprint/Views/ShoppingCart/Details.cshtml]
+[C:/Users/Vikhayle/OneDrive/bookstore-frontend-bazaarbooks/BazaarBooks-ProgSprint/Views/ShoppingCart/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vikhayle/Downloads/bookstore-frontend-bazaarbooks-main/bookstore-frontend-bazaarbooks-main/BazaarBooks-ProgSprint/Views/ShoppingCart/Edit.cshtml]
+[C:/Users/Vikhayle/OneDrive/bookstore-frontend-bazaarbooks/BazaarBooks-ProgSprint/Views/ShoppingCart/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vikhayle/Downloads/bookstore-frontend-bazaarbooks-main/bookstore-frontend-bazaarbooks-main/BazaarBooks-ProgSprint/Views/ShoppingCart/Index.cshtml]
+[C:/Users/Vikhayle/OneDrive/bookstore-frontend-bazaarbooks/BazaarBooks-ProgSprint/Views/ShoppingCart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vikhayle/Downloads/bookstore-frontend-bazaarbooks-main/bookstore-frontend-bazaarbooks-main/BazaarBooks-ProgSprint/Views/User/Create.cshtml]
+[C:/Users/Vikhayle/OneDrive/bookstore-frontend-bazaarbooks/BazaarBooks-ProgSprint/Views/User/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vikhayle/Downloads/bookstore-frontend-bazaarbooks-main/bookstore-frontend-bazaarbooks-main/BazaarBooks-ProgSprint/Views/User/Delete.cshtml]
+[C:/Users/Vikhayle/OneDrive/bookstore-frontend-bazaarbooks/BazaarBooks-ProgSprint/Views/User/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vikhayle/Downloads/bookstore-frontend-bazaarbooks-main/bookstore-frontend-bazaarbooks-main/BazaarBooks-ProgSprint/Views/User/Details.cshtml]
+[C:/Users/Vikhayle/OneDrive/bookstore-frontend-bazaarbooks/BazaarBooks-ProgSprint/Views/User/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vikhayle/Downloads/bookstore-frontend-bazaarbooks-main/bookstore-frontend-bazaarbooks-main/BazaarBooks-ProgSprint/Views/User/Edit.cshtml]
+[C:/Users/Vikhayle/OneDrive/bookstore-frontend-bazaarbooks/BazaarBooks-ProgSprint/Views/User/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vikhayle/Downloads/bookstore-frontend-bazaarbooks-main/bookstore-frontend-bazaarbooks-main/BazaarBooks-ProgSprint/Views/User/Index.cshtml]
+[C:/Users/Vikhayle/OneDrive/bookstore-frontend-bazaarbooks/BazaarBooks-ProgSprint/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vikhayle/Downloads/bookstore-frontend-bazaarbooks-main/bookstore-frontend-bazaarbooks-main/BazaarBooks-ProgSprint/Views/_ViewImports.cshtml]
+[C:/Users/Vikhayle/OneDrive/bookstore-frontend-bazaarbooks/BazaarBooks-ProgSprint/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vikhayle/Downloads/bookstore-frontend-bazaarbooks-main/bookstore-frontend-bazaarbooks-main/BazaarBooks-ProgSprint/Views/_ViewStart.cshtml]
+[C:/Users/Vikhayle/OneDrive/bookstore-frontend-bazaarbooks/BazaarBooks-ProgSprint/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vikhayle/Downloads/bookstore-frontend-bazaarbooks-main/bookstore-frontend-bazaarbooks-main/BazaarBooks-ProgSprint/Views/Shared/_Layout.cshtml]
+[C:/Users/Vikhayle/OneDrive/bookstore-frontend-bazaarbooks/BazaarBooks-ProgSprint/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-q4xigfrsnd

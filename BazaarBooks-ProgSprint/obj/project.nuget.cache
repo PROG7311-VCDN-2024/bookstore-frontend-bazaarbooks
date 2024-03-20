@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jTvhSuvOXuj/DCt4yOFuf2I/Jo2CB0+KpHIR9NaIJsY7GMGYTvan9UPSuvAGRo2QRkLou6mFBk/peX0cCVnuAg==",
+  "dgSpecHash": "3/nEawGKbP5fkgkRYevtmGDjbkBnRQu+UvW9slWvovogRZcMkUYBn9QoJaLaFthqkegZRThmah4dvw5js/OuOQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vikhayle\\Downloads\\bookstore-frontend-bazaarbooks-main\\bookstore-frontend-bazaarbooks-main\\BazaarBooks-ProgSprint\\BazaarBooks-ProgSprint.csproj",
+  "projectFilePath": "C:\\Users\\Vikhayle\\OneDrive\\bookstore-frontend-bazaarbooks\\BazaarBooks-ProgSprint\\BazaarBooks-ProgSprint.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vikhayle\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Vikhayle\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

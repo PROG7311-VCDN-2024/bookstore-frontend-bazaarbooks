@@ -14,7 +14,7 @@ namespace BazaarBooks_ProgSprint.Controllers
         FirebaseAuthProvider auth;
         private readonly IHttpContextAccessor accessContext;
         BazaarBooksDbContext _context = new BazaarBooksDbContext();
-       
+       //COMIT
         public AuthController(BazaarBooksDbContext context, IHttpContextAccessor httpContextAccessor)
         {
 
